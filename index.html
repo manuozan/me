@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor"> 
+        <h1>que hacés chipusin querido.<span>&#160</span>
+        </h1>
+    </div>
+    
+</body>
+</html></p>
+
+<style> 
+
+body{background-color: lightblue;}
+
+.contenedor{
+    margin: auto;
+    display: auto;
+}
+
+h1{
+    float: left;
+    color: #fff;
+    position: relative;
+    font-family: monospace;
+   
+}
+
+h1 span {
+        position: absolute;
+        right: 0;
+        width: 0;
+        background: lightblue;
+        border-left: 1px solid #000;
+    
+        animation: maquina 5s infinite alternate steps(43);
+    }
+
+@keyframes maquina { 
+    from { width: 43ch; }
+    to {width: 0ch;}
+}
+</style>
