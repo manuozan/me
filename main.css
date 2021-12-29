@@ -27,9 +27,10 @@ body {
 }
 .particulas {
   width: 90%;
-  height: 600px;
+  height: 100%;
   position: absolute;
   z-index: 1;
+  
 }
 a {
   text-decoration: none;
